@@ -1,0 +1,9 @@
+Gene,Expression_Level,Sample_ID,Confidence_Score
+BRCA1,12.5,S01,0.98
+TP53,,S02,0.87
+EGFR,8.7,S03,
+MYC,15.2,S04,0.92
+KRAS,9.1,S05,0.85
+ALK,7.4,S06,0.91
+PTEN,,S07,0.88
+PIK3CA,10.3,S08,

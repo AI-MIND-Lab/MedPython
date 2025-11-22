@@ -1,0 +1,6 @@
+Gene,Expression_Level,Organism,PValue,FDR,Sample1,Sample2,Sample3
+BRCA1,12.5,Human,0.001,0.01,23.7,22.9,22.8
+TP53,8.3,Human,0.03,0.04,25.6,28.2,20.1
+EGFR,14.7,Human,0.002,0.02,24.3,19.6,26.1
+MYC,7.1,Mouse,0.045,0.05,29.5,30.3,30.8
+BRCA1,10.8,Mouse,0.005,0.02,25.2,24.4,24.5
