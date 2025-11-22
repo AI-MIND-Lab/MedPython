@@ -111,7 +111,7 @@ MedPython/
 ## ✨ Acknowledgments
 
 Developed for the
-**University of Central Florida — College of Medicine — Institute for Artificial Intelligence (IAI)**
+**University of Central Florida — College of Medicine & Institute for Artificial Intelligence (IAI)**
 
 
 
