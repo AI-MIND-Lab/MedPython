@@ -19,6 +19,13 @@ A beginner-friendly introduction to Google Colab, a free, browser-based environm
 
 A visual introduction to Python's core data types, including numbers, strings, lists, tuples, sets, and dictionaries.
 
+
+### 3. Python Lists, Tuples, Sets, and Dictionaries: When to Use Each
+
+[▶ Watch YouTube Tutorial](https://youtu.be/h-zcj4DmqHk)
+
+A short comparison of Python lists, tuples, sets, and dictionaries, explaining their differences and when to use each.
+
 ## Additional Resources
 
 More tutorials will be added throughout the course.
