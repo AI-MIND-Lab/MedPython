@@ -26,7 +26,7 @@ A visual introduction to Python’s core data types, including numbers, strings,
 
 Compare Python’s main collection types and learn when to use each, for example, to organize DNA sequences, gene annotations, or experimental results.
 
-### 4. Python Dictionaries — Visually Explained
+### 4. Python Dictionaries
 
 [▶ Watch YouTube Tutorial](https://youtu.be/4t10v2QmTHU)
 
@@ -52,7 +52,7 @@ Practice choosing and working with lists, tuples, and sets. Pause each problem a
 
 Reinforce your understanding of functions through practice. Apply the same approach to reusable tasks such as calculating GC content or counting nucleotides.
 
-### 8. Python F-strings — Visually Explained
+### 8. Python F-strings
 
 [▶ Watch YouTube Tutorial](https://youtu.be/H_TPIAEJl68)
 
@@ -74,13 +74,13 @@ Explore how a loop inside another loop works. A biomedical example is processing
 
 > **Note:** Nested loops describe repeated operations; nested data structures describe how data is organized.
 
-### 11. Python zip() Function — Visually Explained
+### 11. Python zip() Function
 
 [▶ Watch YouTube Tutorial](https://youtu.be/1cG6RpAH9Xk)
 
 Learn how to pair corresponding elements from multiple collections, for example, matching gene names with their sequences.
 
-### 12. List Comprehensions — Visually Explained
+### 12. List Comprehensions
 
 [▶ Watch YouTube Tutorial](https://youtu.be/DUnY6l482Lk)
 
@@ -88,7 +88,7 @@ Explore a concise way to create lists from existing collections. Connect this to
 
 ## Error Handling
 
-### 13. Python Error Handling — Visually Explained
+### 13. Python Error Handling
 
 [▶ Watch YouTube Tutorial](https://youtu.be/XN3udSTGAOM)
 
