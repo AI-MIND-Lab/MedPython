@@ -24,7 +24,7 @@ A visual introduction to Python’s core data types, including numbers, strings,
 
 [▶ Watch YouTube Tutorial](https://youtu.be/h-zcj4DmqHk)
 
-Compare Python’s main collection types and learn when to use each—for example, to organize DNA sequences, gene annotations, or experimental results.
+Compare Python’s main collection types and learn when to use each, for example, to organize DNA sequences, gene annotations, or experimental results.
 
 ### 4. Python Dictionaries — Visually Explained
 
@@ -56,7 +56,7 @@ Reinforce your understanding of functions through practice. Apply the same appro
 
 [▶ Watch YouTube Tutorial](https://youtu.be/H_TPIAEJl68)
 
-Learn how to insert variables into text and format output—for example, displaying a gene name or a GC-content percentage.
+Learn how to insert variables into text and format output, for example, displaying a gene name or a GC-content percentage.
 
 ## Loops and Working with Collections
 
@@ -78,7 +78,7 @@ Explore how a loop inside another loop works. A biomedical example is processing
 
 [▶ Watch YouTube Tutorial](https://youtu.be/1cG6RpAH9Xk)
 
-Learn how to pair corresponding elements from multiple collections—for example, matching gene names with their sequences.
+Learn how to pair corresponding elements from multiple collections, for example, matching gene names with their sequences.
 
 ### 12. List Comprehensions — Visually Explained
 
