@@ -94,6 +94,92 @@ Explore a concise way to create lists from existing collections. Connect this to
 
 Learn the basics of handling errors so a program can respond appropriately to unexpected input. Relate this to checking for empty or invalid DNA sequences.
 
+## Week 3: Numerical Data Analysis and Visualization
+
+These supplementary resources support the Week 3 notebook on NumPy and Matplotlib. Watch the sections relevant to your questions; you do not need to complete every video in full.
+
+**Suggested priorities:** Resources 14, 16, 19, and 20 most directly support the Week 3 assignment. Use the others for additional explanation and review.
+
+### 14. NumPy Arrays, Indexing, and Numerical Operations
+
+[▶ Watch YouTube Tutorial — freeCodeCamp / Keith Galli](https://www.youtube.com/watch?v=QUT1VHiLmmI)
+
+Learn how to create arrays, inspect their shapes, select rows and columns, and perform numerical calculations. Focus on indexing, statistics, and Boolean filtering, then apply these ideas to the notebook’s gene expression and patient temperature tables.
+
+**Try it:** Select one patient’s measurements and one measurement time across all patients. Predict each result’s shape before running the code.
+
+### 15. Mean, Variance, and Standard Deviation
+
+[▶ Watch Visual Explanation — StatQuest](https://youtu.be/SzZ6GpcfoQY)
+
+Build an intuitive understanding of averages and variability before calculating them in Python. Connect this to patients whose measurements have the same mean but different amounts of variation.
+
+**Course connection:** Follow the notebook’s distinction between `ddof=0` and `ddof=1`. Use the convention requested in each exercise.
+
+### 16. Creating and Customizing Plots with Matplotlib
+
+[▶ Watch YouTube Tutorial — Corey Schafer](https://www.youtube.com/watch?v=UO98lJQ3QGI)
+
+Learn to create line plots and customize their appearance. Apply these ideas to plotting temperature over time with informative labels, units, titles, and legends.
+
+**Try it:** Plot P002 and P003 together. Explain why their equal means do not describe their different patterns over time.
+
+### 17. Scatter Plots
+
+[▶ Watch YouTube Tutorial — Corey Schafer](https://www.youtube.com/watch?v=zZZ_RCwp49g)
+
+Learn to visualize relationships between two numerical variables. Connect this to comparing paired biological measurements and examining patterns alongside a correlation coefficient.
+
+**Remember:** A visible association does not establish causation. Check the plotted data rather than relying only on a numerical summary.
+
+### 18. Histograms
+
+[▶ Watch YouTube Tutorial — Corey Schafer](https://www.youtube.com/watch?v=XDv6T4a0RNc)
+
+Explore how histograms group measurements into bins to show their distribution. Compare this with a line plot, which preserves the order of measurements over time.
+
+**Try it:** Change the number of bins and describe how the appearance changes. Do not interpret a plotting choice as a change in the underlying measurements.
+
+### 19. Understanding Box Plots
+
+[▶ Watch Visual Explanation — StatQuest](https://youtu.be/fHLhBnmwUM0)
+
+Understand how box plots summarize a distribution. Relate this to comparing patients’ temperature measurements, while remembering that a box plot does not preserve time order.
+
+Use the course notebook for the Python implementation and for overlaying individual measurements.
+
+**Remember:** A point beyond a box plot’s whiskers does not, by itself, establish a measurement error or justify deleting the observation.
+
+### 20. Drawing and Interpreting Heatmaps
+
+[▶ Watch Visual Explanation — StatQuest](https://youtu.be/oMtDyOn2TCc)
+
+Explore how heatmaps communicate patterns in numerical tables. Connect this to displaying patients as rows and measurement times as columns.
+
+This video supports interpretation. Follow the notebook’s `imshow()` example for implementation, including tick labels, a shared color scale, and a labeled colorbar.
+
+**Try it:** Find the unusual hour-8 measurement for P005. Explain what the color shows and what it cannot tell you about the cause.
+
+### 21. Covariance and Pearson Correlation
+
+[▶ Covariance — StatQuest](https://youtu.be/qtaqvPAeEJY)
+
+[▶ Pearson Correlation — StatQuest](https://youtu.be/xZ_z8KWkhXE)
+
+Understand how two measurements vary together and how Pearson correlation summarizes a linear relationship. Relate these explanations to the notebook’s paired numerical data.
+
+**Remember:** Correlation does not establish causation, and a correlation near zero does not rule out a nonlinear relationship.
+
+### Week 3 Notebook Reminders
+
+Use the course notebook as the reference for:
+
+- **Axes:** For the patient temperature matrix, rows represent patients and columns represent measurement times. `axis=1` produces one summary per patient; `axis=0` produces one summary per time.
+- **Boolean filtering:** Apply the same selection mask to patient identifiers and their corresponding measurement rows. Preserve the original dataset.
+- **Z-score standardization:** Follow the notebook’s formula and standard deviation convention, and handle zero standard deviation explicitly. Standardization does not make a distribution normal.
+- **Saving figures:** Follow the notebook’s instructions to save with `dpi=300` and `bbox_inches="tight"`, download the PNG from Colab, and check that labels are visible.
+- **Interpretation:** The datasets are fictional teaching examples. A threshold filter, unusual observation, or visualization alone does not establish a diagnosis or treatment effect.
+
 ## Suggested Study Approach
 
 1. Review the relevant course notebook section.
@@ -101,6 +187,7 @@ Learn the basics of handling errors so a program can respond appropriately to un
 3. Pause and predict what the code will do.
 4. Run a similar example in Google Colab.
 5. Try the practice problems independently.
+6. Explain your results in plain language, including what the data cannot establish.
 
 ## Additional Resources
 
