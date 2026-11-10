@@ -94,12 +94,6 @@ Explore a concise way to create lists from existing collections. Connect this to
 
 Learn the basics of handling errors so a program can respond appropriately to unexpected input. Relate this to checking for empty or invalid DNA sequences.
 
-## Week 3: Numerical Data Analysis and Visualization
-
-These supplementary resources support the Week 3 notebook on NumPy and Matplotlib. Watch the sections relevant to your questions; you do not need to complete every video in full.
-
-**Suggested priorities:** Resources 14, 16, 19, and 20 most directly support the Week 3 assignment. Use the others for additional explanation and review.
-
 ### 14. NumPy Arrays, Indexing, and Numerical Operations
 
 [▶ Watch YouTube Tutorial — freeCodeCamp / Keith Galli](https://www.youtube.com/watch?v=QUT1VHiLmmI)
