@@ -4,7 +4,6 @@ Welcome to the MedPython Learning Resources!
 
 This page provides free video tutorials to support your Python learning and help you apply programming concepts to biomedical research. Use these videos alongside the course notebooks, and try the exercises yourself before viewing the solutions.
 
-## Getting Started
 
 ### 1. Google Colab for Python Beginners
 
@@ -18,7 +17,6 @@ An introduction to Google Colab, a free, browser-based environment for writing a
 
 A visual introduction to Python’s core data types, including numbers, strings, lists, tuples, sets, and dictionaries.
 
-## Data Structures
 
 ### 3. Python Lists, Tuples, Sets, and Dictionaries: When to Use Each
 
@@ -44,8 +42,6 @@ Explore structures that contain other structures, such as lists of dictionaries.
 
 Practice choosing and working with lists, tuples, and sets. Pause each problem and attempt your own solution before continuing.
 
-## Functions and Formatting
-
 ### 7. Python Functions: Three Key Practice Problems
 
 [▶ Watch Practice Problems](https://youtu.be/hFIo05dSD0U)
@@ -57,8 +53,6 @@ Reinforce your understanding of functions through practice. Apply the same appro
 [▶ Watch YouTube Tutorial](https://youtu.be/H_TPIAEJl68)
 
 Learn how to insert variables into text and format output, for example, displaying a gene name or a GC-content percentage.
-
-## Loops and Working with Collections
 
 ### 9. Practice Problems: Python For Loops
 
@@ -85,8 +79,6 @@ Learn how to pair corresponding elements from multiple collections, for example,
 [▶ Watch YouTube Tutorial](https://youtu.be/DUnY6l482Lk)
 
 Explore a concise way to create lists from existing collections. Connect this to calculating sequence lengths or filtering biological data.
-
-## Error Handling
 
 ### 13. Python Error Handling
 
@@ -163,16 +155,6 @@ This video supports interpretation. Follow the notebook’s `imshow()` example f
 Understand how two measurements vary together and how Pearson correlation summarizes a linear relationship. Relate these explanations to the notebook’s paired numerical data.
 
 **Remember:** Correlation does not establish causation, and a correlation near zero does not rule out a nonlinear relationship.
-
-### Week 3 Notebook Reminders
-
-Use the course notebook as the reference for:
-
-- **Axes:** For the patient temperature matrix, rows represent patients and columns represent measurement times. `axis=1` produces one summary per patient; `axis=0` produces one summary per time.
-- **Boolean filtering:** Apply the same selection mask to patient identifiers and their corresponding measurement rows. Preserve the original dataset.
-- **Z-score standardization:** Follow the notebook’s formula and standard deviation convention, and handle zero standard deviation explicitly. Standardization does not make a distribution normal.
-- **Saving figures:** Follow the notebook’s instructions to save with `dpi=300` and `bbox_inches="tight"`, download the PNG from Colab, and check that labels are visible.
-- **Interpretation:** The datasets are fictional teaching examples. A threshold filter, unusual observation, or visualization alone does not establish a diagnosis or treatment effect.
 
 ## Suggested Study Approach
 
