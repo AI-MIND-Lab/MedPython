@@ -202,13 +202,15 @@ Understand how t-tests and ANOVA compare group means and how these statistical m
 
 ### 27. Chi-Square Test of Independence
 
-[▶ Watch Visual Explanation — Khan Academy](https://www.khanacademy.org/math/statistics-probability/inference-categorical-data-chi-square-tests/chi-square-tests-for-homogeneity-and-association-independence/v/chi-square-test-association-independence)
+[▶ Watch Free YouTube Tutorial — Joshua Emmanuel](https://www.youtube.com/watch?v=AuYRQVmpSaE)
 
-Learn how the chi-square test evaluates associations between categorical variables using observed and expected frequencies.
+Learn how the chi-square test evaluates associations between categorical variables using contingency tables, observed and expected frequencies, and p-values.
 
 **Course connection:** Apply this concept to the notebook's responder analysis, where participants are classified as responders or nonresponders across three treatment groups.
 
 **Try it:** Construct a contingency table using `pd.crosstab()` and perform the chi-square test using `stats.chi2_contingency()`.
+
+**Remember:** Check the expected cell counts before interpreting the chi-square results. A statistically significant association does not establish causation.
 
 ### 28. Multiple Linear Regression
 
